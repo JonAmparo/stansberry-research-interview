@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap");
+
+* {
+  font-family: 'Open Sans', sans-serif, 'Arial', 'Helvitica';
+}
+
+h1 {
+  font-size: 36px;
+}
+p {
+  font-size: 18px;
+}
+
+table {
+  border: 0px;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+th {
+  padding: 5px;
+  text-align: left;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  display: inline-flexbox;
+}
+
+tr {
+}
+
+.container {
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* @media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+} */
+
+.text-center {
+  text-align: center;
+}
+
+.max-width {
+  width: 100%;
+}
+
+.signature {
+  width: 55%;
+}
+
+@media only screen and (min-width: 992px) {
+  .img-width {
+    max-width: 50%;
+  }
+}
+
+.small {
+  font-size: 15px;
+}
+
+.smaller {
+  font-size: 13px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #ba131a;
+  border-color: #ba131a;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  padding: 10px 25px;
+  font-size: 28px;
+  font-weight: 700;
+  border-radius: 0.25rem;
+}
+
+.btn:hover {
+  background-color: #860c12;
+  border-color: #860c12;
+  cursor: pointer;
+}
+
+.bg-blue {
+  background-color: #0f7dc2;
+}
+
+.text-white {
+  color: white;
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.pt-5 {
+  padding-top: 20px;
+}
+
+.pt-10 {
+  padding-top: 40px;
+}
+
+.pb-5 {
+  padding-bottom: 20px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.plans {
+  padding: 0px;
+}
+.plans .plan {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 0em;
+  margin: auto;
+}
+
+.plans .plan th {
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+}
+
+.plans .plan td {
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+}
+
+.plans .plan .colr {
+  background-color: #dadada;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.plans .plan .colr:hover {
+  color: #0f7dc2;
+}
+.plans .plan .colr1:hover {
+  color: #0f7dc2;
+}
