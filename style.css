@@ -8,7 +8,7 @@ h1 {
   font-size: 36px;
 }
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 table {
@@ -35,6 +35,24 @@ tr {
   margin-left: auto;
 }
 
+@media only screen and (min-width: 992px) {
+  .container {
+    padding-right: 25%;
+    padding-left: 25%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 762px) {
+  .container {
+    padding-right: 15%;
+    padding-left: 15%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -55,8 +73,14 @@ tr {
 }
 
 @media only screen and (min-width: 992px) {
+  .signature {
+    max-width: 40%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
   .img-width {
-    max-width: 50%;
+    max-width: 75%;
   }
 }
 
